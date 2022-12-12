@@ -98,26 +98,14 @@ $(function(){
         $(".canvas-menu").toggleClass("open");
         $(".main-overlay").toggleClass("active");
     });
-
+    // mở đóng  menu
     $(".canvas-menu .btn-close, .main-overlay").on('click', function() {
         $(".canvas-menu").removeClass("open");
         $(".main-overlay").removeClass("active");
     });
 
-    $("button.search").on('click',function(){
-        $(".search-popup").addClass("visible");
-    });
 
-    $(".search-popup .btn-close").on('click', function(){
-        $(".search-popup").removeClass("visible");
-    });
-
-    $(document).keyup(function(e){
-        if(e.key ===  "Escape"){
-            $(".search-popup").removeClass("visible");
-        }
-    });
-
+ 
 
     // loader tab pane 
     $('button[data-bs-toggle="tab"]').on('click', function() {

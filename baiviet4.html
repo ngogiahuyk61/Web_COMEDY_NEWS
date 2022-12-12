@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TC Blogs</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel=" stylesheet" href="./css/slick.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <div class="main-overlay"></div>
+        <header class="header-default">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-xl">
+                    <!-- logo  -->
+                    <a href="index.html" class="navbar-brand">
+                        <img src="images/logo.png " style="height: 110px;" width="150px">
+                    </a>
+
+                    <div class="collapse navbar-collapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item dropdown active">
+                                <a href="index.html" class="nav-link dropdown-toggle">Trang chủ </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="./baiviet1.html" class="dropdown-item">Xe</a>
+                                    </li>
+                                    <li>
+                                        <a href="./baiviet2.html" class="dropdown-item">Phim ảnh</a>
+                                    </li>
+                                    <li>
+                                        <a href="./baiviet3.html" class="dropdown-item">Nhà xinh</a>
+                                    </li>
+                                    <li>
+                                        <a href="./baiviet4.html" class="dropdown-item">Du lịch</a>
+                                    </li>
+                                    <li>
+                                        <a href="./baiviet5.html" class="dropdown-item">Đồ Ăn</a>
+                                    </li>
+                                    <li>
+                                        <a href="./baiviet6.html" class="dropdown-item">Thời trang</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Video</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Trending</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Thông tin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- right side of header  -->
+                    <div class="header-right">
+                        <ul class="social-icons list-unstyled list-inline mb-0">
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fab fa-itunes"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fab fa-pinterest"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </li>
+                        </ul>
+
+                        <!-- buttons  -->
+                        <div class="header-buttons">
+                            <button class="search icon-button">
+                                <i class="icon-magnifier"></i>
+                            </button>
+                            <button class="burger-menu icon-button">
+                                <span class="burger-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+        </header>
+
+        <section id="hero">
+            <div class="container-xl">
+                <div class="row gy-4">
+                    <div class="col-lg-8">
+
+                        <div class="post featured-post-lg">
+                            <div class="details clearfix">
+                                <a href="#" class="category-badge">Du Lịch</a>
+                                <h2 class="post-title">
+                                    <a href="#">SUN WORLD BA NA HILLS</a>
+                                </h2>
+                                <ul class="meta list-inline mb-0">
+                                    <li class="list-inline-item">
+                                        <a href="#">COMEDY NEWS</a>
+                                    </li>
+                                    <li class="list-inline-item">12 tháng 2022</li>
+                                </ul>
+                            </div>
+                            <a href="#">
+                                <div class="thumb rounded">
+                                    <div class="inner data-bg-image" data-bg-image="images/posts/baiviet4.jpg">
+                                        <img src="images/posts/baiviet4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="post-tabs rounded bordered">
+                            <ul class="nav nav-tabs nav-pills nav-fill" id="postTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button aria-controls="popular" aria-selected="true" class="nav-link active"
+                                        data-bs-target="#popular" data-bs-toggle="tab" id="popular-tab" role="tab"
+                                        type="button">
+                                        Phổ biến
+                                    </button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button aria-controls="recent" aria-selected="false" class="nav-link"
+                                        data-bs-target="#recent" data-bs-toggle="tab" id="recent-tab" role="tab"
+                                        type="button">
+                                        Gần đây
+                                    </button>
+                                </li>
+
+                            </ul>
+
+                            <!-- content  -->
+                            <div class="tab-content" id="postsTabContent">
+                                <!-- loader -->
+                                <div class="lds-dual-ring"></div>
+                                <!-- pop post  -->
+
+                                <div class="tab-pane fade show active" id="popular" aria-labelledby="popular-tab"
+                                    role="tabpanel">
+                                    <!-- post  -->
+                                    <div class="post post-list-sm circle">
+                                        <div class="thumb circle">
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/posts/tabs-1.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="details clearfix">
+                                            <h6 class="post-title my-0">
+                                                <a href="#">Chiếc siêu xe Lamborghini Aventador cuối cùng được sản xuất</a>
+                                            </h6>
+                                            <ul class="meta list-inline mt-1 mb-0">
+                                                <li class="list-inline-item">24 tháng 11 2022</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- post2  -->
+                                    <div class="post post-list-sm circle">
+                                        <div class="thumb circle">
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/posts/tabs-2.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="details clearfix">
+                                            <h6 class="post-title my-0">
+                                                <a href="#">Phim Thor: Ragnarok 2017</a>
+                                            </h6>
+                                            <ul class="meta list-inline mt-1 mb-0">
+                                                <li class="list-inline-item">28 tháng 8 2017</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- post3  -->
+                                    <div class="post post-list-sm circle">
+                                        <div class="thumb circle">
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/posts/tabs-3.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="details clearfix">
+                                            <h6 class="post-title my-0">
+                                                <a href="#">Messi & Ronaldo solo đánh cờ</a>
+                                            </h6>
+                                            <ul class="meta list-inline mt-1 mb-0">
+                                                <li class="list-inline-item">28 tháng 11 2022</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- post4  -->
+                                    <div class="post post-list-sm circle">
+                                        <div class="thumb circle">
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/posts/tabs-4.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="details clearfix">
+                                            <h6 class="post-title my-0">
+                                                <a href="#">Phim The Haunting of Hill House </a>
+                                            </h6>
+                                            <ul class="meta list-inline mt-1 mb-0">
+                                                <li class="list-inline-item">01 tháng 2 2021</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- recent  -->
+                                <div class="tab-pane fade" id="recent" aria-labelledby="recent-tab" role="tabpanel">
+                                    <!-- post  -->
+                                    <div class="post post-list-sm circle">
+                                        <div class="thumb circle">
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/posts/tabs-2.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="details clearfix">
+                                            <h6 class="post-title my-0">
+                                                <a href="#">Phim Thor: Ragnarok 2017</a>
+                                            </h6>
+                                            <ul class="meta list-inline mt-1 mb-0">
+                                                <li class="list-inline-item">28 tháng 8 2017</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- post2  -->
+                                    <div class="post post-list-sm circle">
+                                        <div class="thumb circle">
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/posts/tabs-1.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="details clearfix">
+                                            <h6 class="post-title my-0">
+                                                <a href="#">Chiếc siêu xe Lamborghini Aventador cuối cùng được sản xuất</a>
+                                            </h6>
+                                            <ul class="meta list-inline mt-1 mb-0">
+                                                <li class="list-inline-item">24 tháng 11 2022</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- post3  -->
+                                    <div class="post post-list-sm circle">
+                                        <div class="thumb circle">
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/posts/tabs-5.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="details clearfix">
+                                            <h6 class="post-title my-0">
+                                                <a href="#">Gái Trung Hoa xinh xinh</a>
+                                            </h6>
+                                            <ul class="meta list-inline mt-1 mb-0">
+                                                <li class="list-inline-item">28 tháng 3 2021</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- post4  -->
+                                    <div class="post post-list-sm circle">
+                                        <div class="thumb circle">
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/posts/tabs-3.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="details clearfix">
+                                            <h6 class="post-title my-0">
+                                                <a href="#">Messi & Ronaldo solo đánh cờ</a>
+                                            </h6>
+                                            <ul class="meta list-inline mt-1 mb-0">
+                                                <li class="list-inline-item">28 tháng 11 2021</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+   
+            
+        </section>
+
+ 
+
+        <section class="main-content">
+            <div class="container-xl">
+                <div class="row gy-4">
+
+                    <!-- left part 1st section  -->
+               
+
+                        <div class="section-header">
+                            <h3 class="section-title">Mùa đông bà nà HILL</h3>
+                      
+                        </div>
+s
+                        <div class="row post-carousel">
+                            <img src="images/posts/baiviet4.jpg" alt="">
+                            <p style="color: black;font-size: 30px;">
+                                Nóng ấm không nắng gắt khí hậu ôn hòa cẩn vật nên thơ phù hợp cho cặp tình nhân
+                            </p>
+                            <h3 class="section-title">Cáp treo bà nà HILL</h3>
+                            <img src="images/posts/baiviet4.2.jpg" alt="">
+                            <p style="color: black;font-size: 30px;">
+                                Độ cao hàng ngàn mét cảnh đẹp tuyệt trần quá quyết rũ trong đời người của mỗi chúng ta
+                            </p>
+                            <h3 class="section-title">Bình minh bà nà HILL</h3>
+                            <img src="images/posts/baiviet4.3.jpg" alt="">
+                            <p style="color: black;font-size: 30px;">
+                                Nắng ấm chan hòa , cái nắng tựa như hòa quan của những vị thần đang thức giấc.
+                            </p>
+                            <h3 class="section-title">Cầu vàng bà nà HILL</h3>
+                            <img src="images/posts/baiviet4.4.jpg" alt="">
+                            <p style="color: black;font-size: 30px;">
+                                Cầu vàng tượng trưng cho khu du lịch bà nà HILL là điểm nổi bậc nhất bàn tay của phật nâng đỡ chúng sanh.</p>
+                             <h3 class="section-title">Làng hoa bà nà HILL</h3>
+                            <img src="images/posts/baiviet4.5.jpg" alt="">
+                            <p style="color: black;font-size: 30px;">
+                                   Hàng hoa sắc thắm đang đua nhau nổ giữa những tia nắng lung linh huyền ảo. ngoài ra còn rất nhiều khu vui chơi khác
+                            </p>                                                
+                        </div>
+
+
+                        <div class="spacer" data-height="50"></div>
+
+                        <div class="section-header">
+                            <h3 class="section-title">Những bài báo mới</h3>
+                        </div>
+
+                        <div class="padding-30 rounded bordered">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-6">
+                                    <!-- post  -->
+                                    <div class="post post-list clearfix">
+                                        <div class="thumb rounded">
+                                            <span class="post-format-sm">
+                                                <i class="icon-picture"></i>
+                                            </span>
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/posts/latest-1.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <ul class="meta list-inline mb-3">
+                                                <li class="list-inline-item">
+                                                    <a href="#">
+                                                        <img src="images/other/author-sm.jpg" class="author" alt="">
+                                                        COMEDY NEWS
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#">Trending</a>
+                                                </li>
+                                                <li class="list-inline-item">26 tháng 7 2021</li>
+                                            </ul>
+                                            <h5 class="post-tile">
+                                                <a href="#">
+                                                    Các hãng hàng không điều phải tạm ngưng vì dịch bệnh có dấu hiệu quay lại
+                                                </a>
+                                            </h5>
+                                            <p class="excerpt mb-0">
+                                                Hiện nay với việc nới rộng dãn cách xã hội đã làm bùng dịch trờ lại ở 1 số tỉnh thành 
+                                            </p>
+                                            <div class="post-bottom clearfix d-flex align-items-center">
+                                                <div class="social-share me-auto">
+                                                    <button class="toggle-button icon-share"></button>
+                                                    <ul class="icons list-unstyled list-inline mb-0">
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="far fa-envelope"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="more-button float-end">
+                                                    <a href="#"><span class="icon-options"></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-6">
+                                    <!-- post  -->
+                                    <div class="post post-list clearfix">
+                                        <div class="thumb rounded">
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/posts/latest-2.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <ul class="meta list-inline mb-3">
+                                                <li class="list-inline-item">
+                                                    <a href="#">
+                                                        <img src="images/other/author-sm.jpg" class="author" alt="">
+                                                        COMEDY NEWS
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#">Công nghệ</a>
+                                                </li>
+                                                <li class="list-inline-item">26 tháng 3 2021</li>
+                                            </ul>
+                                            <h5 class="post-tile">
+                                                <a href="#">
+                                                    Ngành công nghiệp game online dần được xem là môn thể thao trí tuệ
+                                                </a>
+                                            </h5>
+                                            <p class="excerpt mb-0">
+                                                    Theo nhà báo break new viết môn thể thao game có thể trong tương lai sẽ có những đột phá
+                                            </p>
+                                            <div class="post-bottom clearfix d-flex align-items-center">
+                                                <div class="social-share me-auto">
+                                                    <button class="toggle-button icon-share"></button>
+                                                    <ul class="icons list-unstyled list-inline mb-0">
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="far fa-envelope"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="more-button float-end">
+                                                    <a href="#"><span class="icon-options"></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-6">
+                                    <!-- post  -->
+                                    <div class="post post-list clearfix">
+                                        <div class="thumb rounded">
+                                            <span class="post-format-sm">
+                                                <i class="icon-camrecorder"></i>
+                                            </span>
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/posts/latest-3.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <ul class="meta list-inline mb-3">
+                                                <li class="list-inline-item">
+                                                    <a href="#">
+                                                        <img src="images/other/author-sm.jpg" class="author" alt="">
+                                                        COMEDY NEWS
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#">Công nghệ </a>
+                                                </li>
+                                                <li class="list-inline-item">26 tháng 1 2021</li>
+                                            </ul>
+                                            <h5 class="post-tile">
+                                                <a href="#">
+                                                    WhatsApp
+                                                </a>
+                                            </h5>
+                                            <p class="excerpt mb-0">
+                                                WhatsApp dần đang thâm nhập vào thị trường Việt Nam đi đầu xu hướng với những thế hệ 8x 9x.
+                                            </p>
+                                            <div class="post-bottom clearfix d-flex align-items-center">
+                                                <div class="social-share me-auto">
+                                                    <button class="toggle-button icon-share"></button>
+                                                    <ul class="icons list-unstyled list-inline mb-0">
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="far fa-envelope"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="more-button float-end">
+                                                    <a href="#"><span class="icon-options"></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-6">
+                                    <!-- post  -->
+                                    <div class="post post-list clearfix">
+                                        <div class="thumb rounded">
+                                            <a href="#">
+                                                <div class="inner">
+                                                    <img src="images/posts/latest-4.jpg" alt="">
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="details">
+                                            <ul class="meta list-inline mb-3">
+                                                <li class="list-inline-item">
+                                                    <a href="#">
+                                                        <img src="images/other/author-sm.jpg" class="author" alt="">
+                                                        COMEDY NEWS
+                                                    </a>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <a href="#">Tài chính</a>
+                                                </li>
+                                                <li class="list-inline-item">26 tháng 3 2021</li>
+                                            </ul>
+                                            <h5 class="post-tile">
+                                                <a href="#">
+                                                    Cổ phiếu rớt giá 
+                                                </a>
+                                            </h5>
+                                            <p class="excerpt mb-0">
+                                                Do xung đột giữa Nga và ukraine khiến cổ phiếu tuột giá không phanh
+                                            </p>
+                                            <div class="post-bottom clearfix d-flex align-items-center">
+                                                <div class="social-share me-auto">
+                                                    <button class="toggle-button icon-share"></button>
+                                                    <ul class="icons list-unstyled list-inline mb-0">
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <a href="#"><i class="far fa-envelope"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="more-button float-end">
+                                                    <a href="#"><span class="icon-options"></span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <button class="btn btn-simple">Tiếp tục</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <div class="instagram">
+            <div class="container-xl">
+                <a href="#" class="btn btn-default btn-instagram">@COMEDY NEWS trên Instagram</a>
+                <div class="instagram-feed d-flex flex-wrap">
+                    <div class="insta-item col-sm-2 col-6 col-md-2">
+                        <a href="#">
+                            <img src="images/insta/insta-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="insta-item col-sm-2 col-6 col-md-2">
+                        <a href="#">
+                            <img src="images/insta/insta-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="insta-item col-sm-2 col-6 col-md-2">
+                        <a href="#">
+                            <img src="images/insta/insta-3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="insta-item col-sm-2 col-6 col-md-2">
+                        <a href="#">
+                            <img src="images/insta/insta-4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="insta-item col-sm-2 col-6 col-md-2">
+                        <a href="#">
+                            <img src="images/insta/insta-5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="insta-item col-sm-2 col-6 col-md-2">
+                        <a href="#">
+                            <img src="images/insta/insta-6.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container-xl">
+                <div class="footer-inner">
+                    <div class="row d-flex align-items-center gy-4">
+                        <div class="col-md-4">
+                            <span class="copyright">&copy; 2022 COCMEDY NEWS</span>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <ul class="social-icons list-unstyled list-inline mb-0">
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-pinterest"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-itunes"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="#" id="return-to-top" class="float-md-end">
+                                <i class="icon-arrow-up"></i>
+                                Trở về trang chủ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+    </div>
+
+
+    <!-- canvas menu  -->
+    <div class="canvas-menu d-flex align-items-end flex-column">
+        <button class="btn-close" aria-label="Close" type="button"></button>
+
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <nav>
+            <ul class="vertical-menu">
+                <li class="active">
+                    <a href="index.html">Trang chủ</a>
+                    <ul class="submenu">
+                        <li><a href="./baiviet1.html">Xe</a><span>(7)</span></li>
+                        <li><a href="./baiviet2.html">Phim ảnh</a><span>(5)</span></li>
+                        <li><a href="./baiviet3.html">Nhà xinh</a><span>(1)</span></li>
+                        <li><a href="./baiviet4.html">Du lịch</a><span>(9)</span></li>
+                        <li><a href="./baiviet5.html">Đồ ăn</a><span>(2)</span></li>
+                        <li><a href="./baiviet6.html">Thời trang</a><span>(4)</span></li>
+                    </ul>
+                </li>
+                <li><a href="#">Video</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Thông tin</a></li>
+                <li><a href="#">Liên lạc</a></li>
+            </ul>
+        </nav>
+
+
+        <ul class="social-icons list-unstyled list-inline mb-0 mt-auto w-100">
+            <li class="list-inline-item">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#"><i class="fab fa-itunes"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </li>
+            <li class="list-inline-item">
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+        </ul>
+    </div>
+
+
+    
+
+
+
+
+
+
+
+
+
+    <!-- javascripts  -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.sticky-sidebar.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

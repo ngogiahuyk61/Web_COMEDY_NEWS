@@ -1,8 +1,8 @@
-/* base css  */
+/* base css đường dẫn link*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif; */
+font-family: 'Roboto', sans-serif; Không nên dùng @import url() nhiều trong css sẽ làm ch */
 
 body {
     color: #8f9bad;
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-    color: #ad1deb;
+    color: blue;
     outline: 0;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
@@ -64,7 +64,7 @@ a:focus {
     opacity: 0;
     visibility: hidden;
     filter: blur(2px);
-    background: #fff;
+    background: #fff;   
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -126,8 +126,8 @@ body.down .header-default.clone {
     color: #fff;
     background: #6a3093;
     border-radius: 25px;
-    background-color: #6e72fc;
-    background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+    background-color: black;
+    background-image: linear-gradient(315deg, black 0%, blue 74%);
 }
 
 .navbar-brand {
@@ -202,7 +202,7 @@ body.down .header-default.clone {
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-    color: #ad1deb;
+    color: blue;
     background-color: transparent;
 }
 
@@ -256,9 +256,7 @@ body.down .header-default.clone {
     margin-left: 10px;
 }
 
-.header-right .header-buttons button:first-child {
-    margin-left: 0;
-}
+
 
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
@@ -323,8 +321,8 @@ button:focus {
     color: #fff;
     border: 0;
     border-radius: 50%;
-    background-color: #6e72fc;
-    background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+    background-color: black;
+    background-image: linear-gradient(315deg, black 0%, blue 74%);
     background-size: auto 200%;
     display: inline-flex;
     justify-content: center;
@@ -349,12 +347,9 @@ button:focus {
 }
 
 .social-icons a:hover {
-    color: #ad1deb;
+    color: blue;
 }
 
-.social-icons li:not(:last-child) {
-    margin-right: 1rem;
-}
 
 /* ************ canvas menu *********** */
 
@@ -454,7 +449,7 @@ button:focus {
 }
 
 .canvas-menu .vertical-menu li.active a {
-    color: #ad1deb;
+    color: blue;
 }
 
 .canvas-menu .vertical-menu li.active .submenu a {
@@ -487,7 +482,7 @@ button:focus {
     padding: 10px;
     line-height: 1;
     cursor: pointer;
-    color: #ad1deb;
+    color: blue;
     position: absolute;
     top: 0;
     right: 0;
@@ -553,8 +548,8 @@ button:focus {
 .btn-default {
     color: #fff;
     padding: 9.5px 36px;
-    background-color: #6e72fc;
-    background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+    background-color: black;
+    background-image: linear-gradient(315deg, black 0%, blue 74%);
     background-size: 200% auto;
 }
 
@@ -583,7 +578,7 @@ button:focus {
 }
 
 .form-control:focus {
-    border-color: #ad1deb;
+    border-color: blue;
     outline: 0;
     box-shadow: none;
 }
@@ -624,8 +619,8 @@ section {
     left: 20px;
     top: 20px;
     z-index: 1;
-    background-color: #6e72fc;
-    background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+    background-color: black;
+    background-image: linear-gradient(315deg, black 0%, blue 74%);
     background-size: 200% auto;
     transition: all 0.3s ease-in-out;
 }
@@ -657,7 +652,7 @@ section {
 }
 
 .post .post-title a:hover {
-    color: #ad1deb;
+    color: blue;
 }
 
 .post .meta {
@@ -686,7 +681,7 @@ section {
 .post .meta li::after {
     content: "";
     display: inline-block;
-    background-color: #ad1deb;
+    background-color: blue;
     border-radius: 50%;
     margin-left: 1rem;
     height: 3px;
@@ -829,7 +824,7 @@ section {
     margin: 8px;
     border-radius: 50%;
     border: 3px solid;
-    border-color: #ad1deb transparent #ad1deb transparent;
+    border-color: blue transparent blue transparent;
     animation: lds-dual-ring 1.2s linear infinite;
 }
 
@@ -857,8 +852,8 @@ section {
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff !important;
-    background-color: #6e72fc;
-    background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+    background-color: black;
+    background-image: linear-gradient(315deg, black 0%, blue 74%);
     border-color: transparent;
     background-size: 200% auto;
 }
@@ -955,8 +950,8 @@ section {
     position: absolute;
     width: 50px;
     box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.15);
-    background-color: #6e72fc;
-    background: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+    background-color: black;
+    background: linear-gradient(315deg, black 0%, blue 74%);
     z-index: 1;
 }
 
@@ -1016,8 +1011,8 @@ section {
 }
 
 .slick-custom-buttons:hover {
-    color: #ad1deb;
-    border-color: #ad1deb;
+    color: blue;
+    border-color: blue;
 }
 
 /* -************ */
@@ -1145,7 +1140,7 @@ section {
 }
 
 .post .post-bottom .social-share .icons li a:hover {
-    color: #ad1deb;
+    color: blue;
 }
 
 .post .post-bottom .social-share .icons li:not(:last-child) {
@@ -1166,7 +1161,7 @@ section {
 }
 
 .post .post-bottom .more-button a:hover {
-    color: #ad1deb;
+    color: blue;
 }
 
 .post.post-list::after {
@@ -1193,8 +1188,8 @@ section {
     position: absolute;
     width: 30px;
     box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.15);
-    background-color: #6e72fc;
-    background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+    background-color: black;
+    background-image: linear-gradient(315deg, black 0%, blue 74%);
     z-index: 1;
 }
 
@@ -1206,8 +1201,8 @@ section {
 }
 
 .btn-simple:hover {
-    color: #ad1deb;
-    border-color: #ad1deb;
+    color: blue;
+    border-color: blue;
 }
 
 /* ************** */
@@ -1247,8 +1242,8 @@ section {
     position: absolute;
     width: 24px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #6e72fc;
-    background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+    background: black;
+    background-image: linear-gradient(315deg, black 0%, blue 74%);
     z-index: 1;
 }
 
@@ -1277,7 +1272,7 @@ section {
 }
 
 .widget ul.list li a:hover {
-    color: #ad1deb;
+    color: blue;
 }
 
 .widget ul.list li::after {
@@ -1315,8 +1310,8 @@ section {
 .btn-default {
     color: #fff;
     padding: 9.5px 36px;
-    background-color: #6e72fc;
-    background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+    background-color: black;
+    background-image: linear-gradient(315deg, black 0%, blue 74%);
     background-size: 200% auto;
 }
 
@@ -1351,8 +1346,8 @@ section {
 }
 
 .tag:hover {
-    border-color: #ad1deb;
-    color: #ad1deb;
+    border-color: blue;
+    color: blue;
 }
 
 /* *************** */
@@ -1418,8 +1413,8 @@ footer .footer-inner .copyright {
 }
 
 #return-to-top:hover {
-    color: #ad1deb;
-    border-color: #ad1deb;
+    color: blue;
+    border-color: blue;
 }
 
 /* *********** responsiveness **************** */
