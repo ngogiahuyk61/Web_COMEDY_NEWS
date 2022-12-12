@@ -1,0 +1,155 @@
+a, abbr, acronym, address, applet, article, aside, audio, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, ul, var, video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}
+.w-1140 {
+    width: 1140px;
+}
+.contact-form .contact-form__formBox .contact-form__field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px;
+}
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+.mx-auto {
+    margin: 0 auto;
+}
+.bg-white {
+    background-color: #fff;
+}
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.w-800 {
+    width: 800px;
+    margin-left: 157px;
+}
+/* .pr-40 {
+    padding-right: 40px;
+} */
+.contact-form .contact-form__formBox .contact-form__field .contact-form__field-title {
+    color: #5d5d5d;
+    font-family: notosans-bold;
+    font-size: 14px;
+    line-height: 47px;
+    min-width: 140px;
+    white-space: nowrap;
+}
+.contact-form .contact-form__formBox .contact-form__field .contact-form__field-title span {
+    color: #c20000;
+}
+.contact-form .contact-form__formBox .contact-form__field p:not(.contact-form__field-title) {
+    width: 100%;
+}
+.contact-form .contact-form__formBox .contact-form__field p:not(.contact-form__field-title) input[type=text] {
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-family: notosans-regular;
+    font-size: 14px;
+    height: 47px;
+    margin-bottom: 5px;
+    padding: 13px 10px;
+    width: 100%;
+}
+.contact-form .contact-form__formBox .contact-form__field p:not(.contact-form__field-title) span {
+    color: #5d5d5d;
+    font-family: arial;
+    font-size: 12px;
+}
+.contact-form .contact-form__formBox .contact-form__field p span.form-message {
+    color: #c20000!important;
+    font-family: notosans-regular!important;
+    font-size: 12px!important;
+}
+.contact-form__field.invalid .form-message {
+    color: #f33a58;
+}
+.file-input {
+    margin-bottom: 5px;
+}
+.file-input__input {
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 0.1px;
+    z-index: -1;
+}
+.file-input__label {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px dashed #3382cb;
+    border-radius: 4px;
+    color: #3382cb;
+    cursor: pointer;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-family: notosans-regular;
+    font-size: 14px;
+    font-weight: 600;
+    justify-content: center;
+    min-width: 150px;
+    padding: 10px 12px;
+}
+.file-input__label img {
+    height: 16px;
+    margin-right: 4px;
+}
+.contact-form .contact-form__note {
+    color: #5d5d5d;
+    font-family: notosans-italic;
+    font-size: 14px;
+}
+.contact-form .contact-form__formBox .contact-form__field:nth-child(5) .contact-form__field-title {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin-top: 30px;
+}
+.contact-form .contact-form__formBox .contact-form__field textarea {
+    border: 1px solid silver;
+    border-radius: 5px;
+    height: 200px;
+    padding: 10px;
+    resize: none;
+    width: 100%;
+}
+.contact-form .contact-form__note {
+    color: #5d5d5d;
+    font-family: notosans-italic;
+    font-size: 14px;
+}
+.contact-form .contact-form__note span {
+    color: #c20000;
+    font-family: notosans-bold;
+}
+.contact-form .contact-form__submit {
+    background: #447ec5;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: notosans-regular;
+    font-size: 18px;
+    height: 40px;
+    margin-bottom: 75px;
+    margin-left: 140px;
+    margin-top: 30px;
+    width: 150px;
+}
